@@ -11,8 +11,6 @@ end
 def monopoly
 	monopoly = {
 	  :railroads => {},
-	  :names => {},
-	  :shortline => {}
 	}
 
 end
@@ -28,7 +26,7 @@ def monopoly_with_second_tier
   	    :b_and_o_railroad => {},
   	    :shortline => {}
 	    }
-	  },
+	  }
 	}
 	
 end
